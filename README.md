@@ -39,7 +39,15 @@ Katkıda bulunmak için lütfen bir pull request gönderin. Her türlü katkıya
 ## İletişim
 
 Herhangi bir sorunuz veya geri bildiriminiz varsa lütfen bizimle iletişime geçin: [zekiakkan97@gmail.com](mailto:zekiakkan97@gmail.com)
-----------------------------------------------------------------
+
+## Krediler
+
+## Bu proje, [EAZ Group] tarafından oluşturulmuştur.
+- [Abdulah Balcan]
+- [Erdem Alpar]
+- [Zeki Akkan]
+
+ 
 # Company Analysis Platform
 This project is a web application developed to perform employee performance analysis, product SWOT analysis, and financial analysis for companies using machine learning and deep learning.
 
@@ -63,3 +71,8 @@ If you would like to contribute to the project, please open an issue or send a p
 
 ### Contact
 If you have any questions or feedback, please feel free to contact us: [zekiakkan97@gmail.com](mailto:zekiakkan97@gmail.com)
+
+## This project was created by [EAZ Group].
+- [Abdulah Balcan]
+- [Erdem Alpar]
+- [Zeki Akkan]
