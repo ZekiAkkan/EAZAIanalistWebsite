@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="TR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    
+
+    <!-- Website Title -->
+    <title>Evolo - StartUp HTML Landing Page Template</title>
+
+    <!-- Styles -->
+    {% load static %}
+        
+
+    
+  
+  </head>
+  <body >
+  
+    <h2>SQL Dosya Yükle</h2>
+    <form method="post" action="{% url 'upload_sql_file' %}" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">Yükle</button>
+  </form>
+  
+    
+    
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ekranı</title>
+    <link rel="stylesheet" href="register_style.css" />
+    <!-- Kayıt sayfasına özgü CSS dosyası -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <h1 class="main-text">
+    EAZ Comp'a <span class="blue-header"> Hoş Geldiniz</span>
+  </h1>
+  <h2 class="upper-text">Yapay zeka destekli yeni nesil şirket analisti</h2>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h1>Kayıt Ol</h1>
+
+        <div class="input-box">
+          <input type="text" placeholder="Şirket Adı" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Mail Adresi" required />
+          <i class="bx bxs-envelope"></i>
+        </div>
+        <div class="input-box">
+          <input type="tel" placeholder="İletişim Numarasi" required />
+          <i class="bx bxs-phone"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Şifre" required />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Şifre Tekrar" required />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <button id="kayitButton" type="button" class="btn" onclick="kayitYap()">
+          Kayıt Ol
+        </button>
+        <div class="login-link">
+          <p>Zaten hesabınız var mı? <a href="#">Giriş yapın</a></p>
+        </div>
+      </form>
+    </div>
+    <script>
+      // JavaScript ile sayfa yönlendirme fonksiyonu
+      function kayitYap() {
+        // Kayıt işlemleri burada gerçekleştirilebilir
+        alert("Kayıt işlemi başarılı!");
+      }
+
+      // Butona tıklanınca sayfa yönlendirme fonksiyonunu çağır
+      document
+        .getElementById("kayitButton")
+        .addEventListener("click", kayitYap);
+    </script>
+  </body>
+</html>

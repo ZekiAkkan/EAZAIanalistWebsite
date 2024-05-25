@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Ubuntu:ital,wght@0,300;1,300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.main-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  position: absolute;
+  top: 15%;
+}
+
+.blue-header {
+  color: rgb(0, 191, 217);
+}
+.upper-text {
+  position: absolute;
+  left: 1%;
+  top: 25%;
+  font-family: "Raleway", sans-serif;
+  font-size: 30;
+}
+body {
+  position: relative;
+  top: 6%;
+  left: 5%;
+  display: flexbox;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(img/background_login.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  color: #3498db;
+}
+
+.wrapper {
+  position: absolute;
+  top: 30%;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  width: 750px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.wrapper h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+
+  margin: 30px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 50%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  font-size: 16px;
+  color: 61, 56, 51;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: rgb(55, 57, 61);
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-forgot label input {
+  accent-color: rgb(55, 57, 61);
+  margin-right: 3px;
+}
+.remember-forgot a {
+  color: rgb(55, 57, 61);
+  text-decoration: none;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+.login-link {
+  top: 10px;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: rgb(0, 191, 217);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px 0 15px;
+}
+.register-link p a {
+  color: rgb(55, 57, 61);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link :hover {
+  text-decoration: underline;
+}

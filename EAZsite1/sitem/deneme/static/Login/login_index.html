@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login_style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+<h1 class="main-text">EAZ Comp'a <span class="blue-header"> Hoş Geldiniz</span>  </h1> 
+<h2 class="upper-text"> Yapay zeka destekli yeni nesil şirket analisti</h2>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <h1>Giris Yap</h1>
+
+        <div class="input-box">
+          <input type="email" placeholder="Mail adresi" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Sifre" required />
+          <i class="bxbxs-lock-alt"> </i>
+        </div>
+        <div class="remember-forgot">
+          <label
+            ><input type="checkbox" />
+            Beni Hatirla
+          </label>
+          <label> <a href="#">Sifremi unuttum ?</a></label>
+        </div>
+        <button id="gitButton" type="button" class="btn" onclick=gecisYap() > 
+            Giriş
+        </button>
+        <div class="register-link">
+          <p>Hesabin yok mu? <a href="#">Kayit ol</a></p>
+        </div>
+      </form>
+    </div>
+    <script>
+        // JavaScript ile sayfa yönlendirme fonksiyonu
+        function gecisYap() {
+            window.location.pathname = "./index.html";
+        }
+
+        // Butona tıklanınca sayfa yönlendirme fonksiyonunu çağır
+        document.getElementById("gitButton").addEventListener("click", gecisYap);
+    </script>
+  </body>
+</html>
