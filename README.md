@@ -26,11 +26,10 @@ Bu projeyi çalıştırmak için bilgisayarınızda Python ve Django yüklü olm
 pip install -r requirements.txt 
 ```
 ### çalıştırma
-cd sitem
-python manage.py runserver
-Tarayıcınızı açın ve http://localhost:8000 adresine gidin. Uygulamayı görmelisiniz.
-Katkıda Bulunma
-Projeye katkıda bulunmak isterseniz, lütfen bir issue açın veya bir pull request gönderin.
+- cd sitem
+- python manage.py runserver
+- Tarayıcınızı açın ve http://localhost:8000 adresine gidin. Uygulamayı görmelisiniz.
+
 
 ## Katkıda Bulunma
 
@@ -62,9 +61,9 @@ pip install -r requirements.txt
 ```
 
 ### Running the Application
-cd sitem
-python manage.py runserver
-Open your browser and go to http://localhost:8000. You should see the application running.
+- cd sitem
+- python manage.py runserver
+- Open your browser and go to http://localhost:8000. You should see the application running.
 
 ### Contribution
 If you would like to contribute to the project, please open an issue or send a pull request.
